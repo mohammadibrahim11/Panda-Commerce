@@ -69,7 +69,7 @@
                   <h1>Cool Dude Headphone</h1>
                   <p>This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
                   <h1>$400</h1>
-                  <div class="btn panda-button-bg">
+                  <div class="btn panda-button-bg" id="buynow">
                     Buy Now
                   </div>
                  </div>
@@ -339,5 +339,14 @@
 
  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+    <script>
+       const headings = document.getElementsByClassName('btn');
+       for(const heading of headings )
+       console.log(heading.innerText);
+
+      //  const tag = document.getElementsByTagName('div')
+      //  console.log(tag);
+    </script>
   </body>
 </html>
